@@ -388,7 +388,7 @@ class FoldChlg:
     return a3
 
 def solve(sitekey, url, proxy=None, log=False):
-  chrome_v = 120
+  chrome_v = 131
   ua_options = Options()
   ua_options.version_ranges = {
     'chrome': VersionRange(chrome_v, chrome_v)
